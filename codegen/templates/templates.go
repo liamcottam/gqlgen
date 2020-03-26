@@ -233,6 +233,7 @@ var pkgReplacer = strings.NewReplacer(
 	"/", "ᚋ",
 	".", "ᚗ",
 	"-", "ᚑ",
+	"~", "ᚒ",
 )
 
 func TypeIdentifier(t types.Type) string {
